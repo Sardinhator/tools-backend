@@ -1,0 +1,586 @@
+2025-12-09 14:51:36.450  INFO 43923 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 43923 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:51:36.451 DEBUG 43923 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:51:36.452  INFO 43923 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-09 14:51:36.467  INFO 43923 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:51:36.467  INFO 43923 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:51:36.467  INFO 43923 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:51:36.798  INFO 43923 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:51:36.806  INFO 43923 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:51:36.964  INFO 43923 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:51:37.345  INFO 43923 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:51:37.352  INFO 43923 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:51:37.352  INFO 43923 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:51:37.375  INFO 43923 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 907 ms
+2025-12-09 14:51:37.485 DEBUG 43923 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:51:37.579  INFO 43923 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:51:37.603  INFO 43923 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:51:37.808  INFO 43923 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:51:37.826  INFO 43923 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:51:37.993  INFO 43923 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c2bd69f
+2025-12-09 14:51:37.994  INFO 43923 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:51:38.037  INFO 43923 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:51:38.285  INFO 43923 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:51:38.290  INFO 43923 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:51:38.353  WARN 43923 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:51:38.509 DEBUG 43923 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:51:38.541 DEBUG 43923 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:51:38.562 DEBUG 43923 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:51:38.597 DEBUG 43923 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:51:38.863  WARN 43923 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 07abd375-7c50-41c8-9f21-2f1bf632d9ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:51:38.892  INFO 43923 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:51:38.993  INFO 43923 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:51:39.015 DEBUG 43923 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:51:39.114  INFO 43923 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:51:39.570  INFO 43923 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:51:39.578  INFO 43923 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.365 seconds (process running for 3.66)
+2025-12-09 14:52:14.586  INFO 43923 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:52:14.589  INFO 43923 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:52:14.591  INFO 43923 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:52:16.673  INFO 43923 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:52:16.675  INFO 43923 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:52:16.678  INFO 43923 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:52:50.440  INFO 45025 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 45025 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:52:50.441 DEBUG 45025 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:52:50.441  INFO 45025 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:52:50.456  INFO 45025 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:52:50.456  INFO 45025 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:52:50.456  INFO 45025 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:52:50.783  INFO 45025 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:52:50.791  INFO 45025 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:52:50.945  INFO 45025 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:52:51.346  INFO 45025 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:52:51.354  INFO 45025 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:52:51.354  INFO 45025 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:52:51.375  INFO 45025 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 918 ms
+2025-12-09 14:52:51.485 DEBUG 45025 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:52:51.569  INFO 45025 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:52:51.594  INFO 45025 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:52:51.799  INFO 45025 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:52:51.816  INFO 45025 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:52:51.961  INFO 45025 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a60fee4
+2025-12-09 14:52:51.961  INFO 45025 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:52:51.998  INFO 45025 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:52:52.231  INFO 45025 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:52:52.237  INFO 45025 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:52:52.305  WARN 45025 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:52:52.461 DEBUG 45025 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:52:52.493 DEBUG 45025 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:52:52.514 DEBUG 45025 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:52:52.548 DEBUG 45025 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:52:52.814  WARN 45025 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 73331530-6574-4cfb-8b7e-6533d56350f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:52:52.840  INFO 45025 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:52:52.940  INFO 45025 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:52:52.960 DEBUG 45025 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:52:53.067  INFO 45025 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:52:53.494  INFO 45025 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:52:53.502  INFO 45025 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.423 seconds (process running for 3.702)
+2025-12-09 14:53:04.667  INFO 45025 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:53:04.669  INFO 45025 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:53:04.670  INFO 45025 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:53:06.759  INFO 45025 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:53:06.762  INFO 45025 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:53:06.766  INFO 45025 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:53:33.494  INFO 45828 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 45828 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:53:33.495 DEBUG 45828 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:53:33.495  INFO 45828 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:53:33.514  INFO 45828 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:53:33.514  INFO 45828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:53:33.514  INFO 45828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:53:33.834  INFO 45828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:53:33.844  INFO 45828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:53:33.975  INFO 45828 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:53:34.331  INFO 45828 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:53:34.338  INFO 45828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:53:34.338  INFO 45828 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:53:34.359  INFO 45828 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 843 ms
+2025-12-09 14:53:34.468 DEBUG 45828 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:53:34.544  INFO 45828 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:53:34.567  INFO 45828 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:53:34.763  INFO 45828 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:53:34.780  INFO 45828 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:53:34.975  INFO 45828 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a54744
+2025-12-09 14:53:34.976  INFO 45828 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:53:35.010  INFO 45828 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:53:35.225  INFO 45828 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:53:35.229  INFO 45828 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:53:35.295  WARN 45828 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:53:35.445 DEBUG 45828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:53:35.473 DEBUG 45828 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:53:35.491 DEBUG 45828 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:53:35.526 DEBUG 45828 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:53:35.789  WARN 45828 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 74e3a55d-0ffa-4002-a167-f04cfd32c4b3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:53:35.817  INFO 45828 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:53:35.915  INFO 45828 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:53:35.939 DEBUG 45828 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:53:36.046  INFO 45828 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:53:36.491  INFO 45828 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:53:36.498  INFO 45828 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.23 seconds (process running for 3.504)
+2025-12-09 14:53:43.139  INFO 45828 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:53:43.141  INFO 45828 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:53:43.142  INFO 45828 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:53:45.218  INFO 45828 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:53:45.221  INFO 45828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:53:45.224  INFO 45828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:54:35.317  INFO 46463 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 46463 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:54:35.318 DEBUG 46463 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:54:35.318  INFO 46463 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:54:35.335  INFO 46463 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:54:35.335  INFO 46463 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:54:35.335  INFO 46463 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:54:35.669  INFO 46463 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:54:35.677  INFO 46463 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:54:35.827  INFO 46463 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:54:36.199  INFO 46463 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:54:36.206  INFO 46463 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:54:36.206  INFO 46463 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:54:36.225  INFO 46463 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 890 ms
+2025-12-09 14:54:36.325 DEBUG 46463 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:54:36.400  INFO 46463 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:54:36.420  INFO 46463 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:54:36.607  INFO 46463 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:54:36.624  INFO 46463 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:54:36.790  INFO 46463 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28c0551f
+2025-12-09 14:54:36.791  INFO 46463 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:54:36.826  INFO 46463 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:54:37.058  INFO 46463 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:54:37.064  INFO 46463 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:54:37.127  WARN 46463 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:54:37.281 DEBUG 46463 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:54:37.309 DEBUG 46463 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:54:37.329 DEBUG 46463 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:54:37.363 DEBUG 46463 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:54:37.627  WARN 46463 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5110b410-2c94-4222-ac11-d0449b1536a9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:54:37.655  INFO 46463 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:54:37.756  INFO 46463 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:54:37.778 DEBUG 46463 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:54:37.885  INFO 46463 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:54:38.364  INFO 46463 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:54:38.373  INFO 46463 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.421 seconds (process running for 3.699)
+2025-12-09 14:54:53.095  INFO 46463 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:54:53.097  INFO 46463 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:54:53.099  INFO 46463 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:54:55.187  INFO 46463 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:54:55.190  INFO 46463 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:54:55.197  INFO 46463 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:55:06.705  INFO 46805 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 46805 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:55:06.706 DEBUG 46805 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:55:06.706  INFO 46805 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:55:06.721  INFO 46805 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:55:06.721  INFO 46805 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:55:06.721  INFO 46805 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:55:07.055  INFO 46805 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:55:07.065  INFO 46805 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:55:07.215  INFO 46805 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:55:07.580  INFO 46805 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:55:07.588  INFO 46805 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:55:07.588  INFO 46805 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:55:07.611  INFO 46805 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 890 ms
+2025-12-09 14:55:07.727 DEBUG 46805 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:55:07.809  INFO 46805 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:55:07.832  INFO 46805 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:55:08.029  INFO 46805 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:55:08.045  INFO 46805 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:55:08.199  INFO 46805 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33ec1e5d
+2025-12-09 14:55:08.199  INFO 46805 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:55:08.237  INFO 46805 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:55:08.473  INFO 46805 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:55:08.478  INFO 46805 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:55:08.540  WARN 46805 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:55:08.707 DEBUG 46805 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:55:08.738 DEBUG 46805 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:55:08.760 DEBUG 46805 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:55:08.795 DEBUG 46805 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:55:09.077  WARN 46805 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 154b0d74-7355-49be-ad80-e45f9db25a92
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:55:09.107  INFO 46805 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:55:09.217  INFO 46805 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:55:09.244 DEBUG 46805 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:55:09.354  INFO 46805 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:55:09.915  INFO 46805 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:55:09.923  INFO 46805 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.442 seconds (process running for 3.714)
+2025-12-09 14:55:18.228  INFO 46805 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:55:18.230  INFO 46805 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:55:18.231  INFO 46805 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:55:20.313  INFO 46805 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:55:20.316  INFO 46805 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:55:20.319  INFO 46805 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:55:31.452  INFO 47354 --- [main] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication v0.0.1-SNAPSHOT using Java 21.0.6 with PID 47354 (/Users/serge.o.sardinha/workspace/tools-backend/build/libs/tools-backend-0.0.1-SNAPSHOT.jar started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:55:31.453 DEBUG 47354 --- [main] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:55:31.453  INFO 47354 --- [main] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:55:31.909  INFO 47354 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:55:31.922  INFO 47354 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:55:32.111  INFO 47354 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=260ee664-32c5-3cb4-b7a5-7e82a5a9e43b
+2025-12-09 14:55:32.535  INFO 47354 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:55:32.544  INFO 47354 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:55:32.544  INFO 47354 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:55:32.559  INFO 47354 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1080 ms
+2025-12-09 14:55:32.677 DEBUG 47354 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:55:32.767  INFO 47354 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:55:32.812  INFO 47354 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:55:33.097  INFO 47354 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:55:33.121  INFO 47354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:55:33.311  INFO 47354 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e475994
+2025-12-09 14:55:33.312  INFO 47354 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:55:33.380  INFO 47354 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:55:33.674  INFO 47354 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:55:33.681  INFO 47354 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:55:33.737  WARN 47354 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:55:33.886 DEBUG 47354 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:55:33.914 DEBUG 47354 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:55:33.945 DEBUG 47354 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:55:33.977 DEBUG 47354 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:55:34.293  INFO 47354 --- [main] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:55:34.717  WARN 47354 --- [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 297c7f95-2ee0-4c0e-a7e8-e1403532cd41
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:55:34.738  INFO 47354 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:55:34.831  INFO 47354 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:55:34.843 DEBUG 47354 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:55:34.940  INFO 47354 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:55:34.948  INFO 47354 --- [main] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.85 seconds (process running for 4.176)
+2025-12-09 14:58:05.461  INFO 47354 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 14:58:05.465  INFO 47354 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 14:58:05.468  INFO 47354 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 14:58:07.543  INFO 47354 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:58:07.546  INFO 47354 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 14:58:07.551  INFO 47354 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 14:58:14.471  INFO 49533 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 49533 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 14:58:14.472 DEBUG 49533 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 14:58:14.472  INFO 49533 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 14:58:14.486  INFO 49533 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 14:58:14.486  INFO 49533 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 14:58:14.486  INFO 49533 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 14:58:14.811  INFO 49533 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 14:58:14.819  INFO 49533 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-12-09 14:58:14.963  INFO 49533 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d745079a-fc1a-3d5d-9653-dd959e56cf4d
+2025-12-09 14:58:15.323  INFO 49533 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 14:58:15.330  INFO 49533 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 14:58:15.330  INFO 49533 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 14:58:15.350  INFO 49533 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 863 ms
+2025-12-09 14:58:15.452 DEBUG 49533 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 14:58:15.536  INFO 49533 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 14:58:15.568  INFO 49533 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 14:58:15.776  INFO 49533 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 14:58:15.795  INFO 49533 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 14:58:15.948  INFO 49533 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@750c7387
+2025-12-09 14:58:15.948  INFO 49533 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 14:58:15.985  INFO 49533 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 14:58:16.221  INFO 49533 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 14:58:16.226  INFO 49533 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 14:58:16.284  WARN 49533 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 14:58:16.440 DEBUG 49533 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 14:58:16.469 DEBUG 49533 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 14:58:16.489 DEBUG 49533 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 14:58:16.521 DEBUG 49533 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 14:58:16.770  WARN 49533 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 03148911-9618-41c5-b825-4d65b26af482
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 14:58:16.798  INFO 49533 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 14:58:16.904  INFO 49533 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 14:58:16.925 DEBUG 49533 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 14:58:17.028  INFO 49533 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 14:58:17.671  INFO 49533 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 14:58:17.680  INFO 49533 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.602 seconds (process running for 3.891)
+2025-12-09 15:06:57.267  INFO 49533 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 15:06:57.270  INFO 49533 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 15:06:57.273  INFO 49533 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 15:06:59.362  INFO 49533 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 15:06:59.364  INFO 49533 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 15:06:59.368  INFO 49533 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 15:45:11.874  INFO 88562 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 88562 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 15:45:11.875 DEBUG 88562 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 15:45:11.875  INFO 88562 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 15:45:11.894  INFO 88562 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 15:45:11.894  INFO 88562 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 15:45:11.894  INFO 88562 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 15:45:12.232  INFO 88562 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 15:45:12.258  INFO 88562 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2025-12-09 15:45:12.405  INFO 88562 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9d191f42-da7a-39ab-9d70-5671831e11ef
+2025-12-09 15:45:12.778  INFO 88562 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 15:45:12.785  INFO 88562 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 15:45:12.785  INFO 88562 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 15:45:12.810  INFO 88562 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 916 ms
+2025-12-09 15:45:12.925 DEBUG 88562 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 15:45:13.006  INFO 88562 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 15:45:13.029  INFO 88562 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 15:45:13.229  INFO 88562 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 15:45:13.246  INFO 88562 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 15:45:13.432  INFO 88562 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@617d3590
+2025-12-09 15:45:13.433  INFO 88562 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 15:45:13.476  INFO 88562 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 15:45:13.978  INFO 88562 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 15:45:14.044 DEBUG 88562 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table `user_group` 
+       add constraint FKhian4xs9oxosoxgpbjc8w9ie2 
+       foreign key (user_id) 
+       references users (id)
+2025-12-09 15:45:14.309  WARN 88562 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table `user_group` 
+       add constraint FKhian4xs9oxosoxgpbjc8w9ie2 
+       foreign key (user_id) 
+       references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhian4xs9oxosoxgpbjc8w9ie2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table `user_group` 
+       add constraint FKhian4xs9oxosoxgpbjc8w9ie2 
+       foreign key (user_id) 
+       references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhian4xs9oxosoxgpbjc8w9ie2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:573)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:513)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:445)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:266)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:109)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:267)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:436)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1459)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:966)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at com.intelcom.hora_tools.hora_tools.HoraToolsApplication.main(HoraToolsApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhian4xs9oxosoxgpbjc8w9ie2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	... 39 common frames omitted
+
+2025-12-09 15:45:14.319 DEBUG 88562 --- [restartedMain] org.hibernate.SQL                        : 
+    alter table user_roles 
+       add constraint FKhfh9dx7w3ubf1co1vdev94g3f 
+       foreign key (user_id) 
+       references users (id)
+2025-12-09 15:45:14.333  WARN 88562 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table user_roles 
+       add constraint FKhfh9dx7w3ubf1co1vdev94g3f 
+       foreign key (user_id) 
+       references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table user_roles 
+       add constraint FKhfh9dx7w3ubf1co1vdev94g3f 
+       foreign key (user_id) 
+       references users (id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:93)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:573)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:513)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:445)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:266)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:109)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:267)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:142)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:139)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:350)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:436)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1459)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:433)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:966)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at com.intelcom.hora_tools.hora_tools.HoraToolsApplication.main(HoraToolsApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`horaspheredb`.`#sql-1_142`, CONSTRAINT `FKhfh9dx7w3ubf1co1vdev94g3f` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:79)
+	... 39 common frames omitted
+
+2025-12-09 15:45:14.334  INFO 88562 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 15:45:14.405  WARN 88562 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 15:45:14.560 DEBUG 88562 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-09 15:45:14.587 DEBUG 88562 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-09 15:45:14.608 DEBUG 88562 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 15:45:14.649 DEBUG 88562 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 15:45:14.921  INFO 88562 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09 15:45:15.032  WARN 88562 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 281dda41-a51f-411d-8ce6-28567b1e6846
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 15:45:15.062  INFO 88562 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 15:45:15.160  INFO 88562 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 15:45:15.181 DEBUG 88562 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 15:45:15.278  INFO 88562 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 15:45:15.874  INFO 88562 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 15:45:15.882  INFO 88562 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 4.394 seconds (process running for 4.684)
+2025-12-09 15:45:24.510  INFO 88562 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 15:45:24.515  INFO 88562 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 15:45:24.519  INFO 88562 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 15:45:26.616  INFO 88562 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 15:45:26.622  INFO 88562 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 15:45:26.634  INFO 88562 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
