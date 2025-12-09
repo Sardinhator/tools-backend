@@ -3979,3 +3979,364 @@ This generated password is for development use only. Your security configuration
 2025-12-09 16:22:00.637  INFO 27381 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-12-09 16:22:00.640  INFO 27381 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-12-09 16:22:00.647  INFO 27381 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 16:29:33.616  INFO 39294 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 39294 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 16:29:33.616 DEBUG 39294 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 16:29:33.617  INFO 39294 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 16:29:33.632  INFO 39294 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 16:29:33.632  INFO 39294 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 16:29:33.632  INFO 39294 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 16:29:33.993  INFO 39294 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 16:29:34.013  INFO 39294 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2025-12-09 16:29:34.160  INFO 39294 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=37587fbf-948a-328e-91ae-616ccea0b0f3
+2025-12-09 16:29:34.490  INFO 39294 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 16:29:34.497  INFO 39294 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 16:29:34.497  INFO 39294 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 16:29:34.517  INFO 39294 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 884 ms
+2025-12-09 16:29:34.620 DEBUG 39294 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 16:29:34.698  INFO 39294 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 16:29:34.719  INFO 39294 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 16:29:34.912  INFO 39294 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 16:29:34.928  INFO 39294 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 16:29:35.108  INFO 39294 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37571dd1
+2025-12-09 16:29:35.108  INFO 39294 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 16:29:35.133  WARN 39294 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09 16:29:35.142  INFO 39294 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 16:29:35.558  INFO 39294 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 16:29:35.563  INFO 39294 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 16:29:35.645  INFO 39294 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09 16:29:36.073  WARN 39294 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 16:29:36.170  WARN 39294 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 162d7c3b-365c-4e56-bb2c-d97f264d08f1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 16:29:36.175  INFO 39294 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 16:29:36.249 DEBUG 39294 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 16:29:36.346 DEBUG 39294 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-12-09 16:29:36.375 DEBUG 39294 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-12-09 16:29:36.396 DEBUG 39294 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 16:29:36.432 DEBUG 39294 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 16:29:36.872  INFO 39294 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 16:29:37.330  INFO 39294 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 16:29:37.379  INFO 39294 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 16:29:37.389  INFO 39294 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.998 seconds (process running for 4.254)
+2025-12-09 16:29:39.272  INFO 39294 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 16:29:39.272  INFO 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-09 16:29:39.273 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-09 16:29:39.273 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-09 16:29:39.274 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@58f36a68
+2025-12-09 16:29:39.274 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1deff3ab
+2025-12-09 16:29:39.274 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-09 16:29:39.274  INFO 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-09 16:29:39.284 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2025-12-09 16:29:39.292 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2025-12-09 16:29:39.294 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-12-09 16:29:39.297 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-09 16:29:39.299 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-09 16:29:39.302 DEBUG 39294 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs for request '/v3/api-docs'.]
+2025-12-09 16:29:39.303 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-09 16:29:39.303 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:39.306 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-12-09 16:29:39.307 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:39.316 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/error?continue to session
+2025-12-09 16:29:39.316 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:29:43.287 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2025-12-09 16:29:43.289 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2025-12-09 16:29:43.289 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-12-09 16:29:43.290 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-09 16:29:43.292 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-09 16:29:43.294 DEBUG 39294 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs for request '/v3/api-docs'.]
+2025-12-09 16:29:43.294 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-09 16:29:43.294 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:43.295 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-12-09 16:29:43.296 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:43.298 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/error?continue to session
+2025-12-09 16:29:43.298 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:29:46.181 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui.html
+2025-12-09 16:29:46.187 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui.html
+2025-12-09 16:29:46.187 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2025-12-09 16:29:46.190 DEBUG 39294 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2025-12-09 16:29:46.227 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json, application/yaml]
+2025-12-09 16:29:46.228 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2025-12-09 16:29:46.229 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-12-09 16:29:46.229 DEBUG 39294 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.234 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2025-12-09 16:29:46.235 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2025-12-09 16:29:46.235 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-12-09 16:29:46.235 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.237 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.237 DEBUG 39294 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-12-09 16:29:46.257 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.258 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.259 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.260 DEBUG 39294 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.260 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.260 DEBUG 39294 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.266 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.266 DEBUG 39294 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.272 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.272 DEBUG 39294 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.274 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.274 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.413 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api-docs/swagger-config
+2025-12-09 16:29:46.414 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.415 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/api-docs/swagger-config?continue to session
+2025-12-09 16:29:46.415 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:29:46.417 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-12-09 16:29:46.417 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:29:46.418 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/error?continue to session
+2025-12-09 16:29:46.418 DEBUG 39294 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:29:46.436 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png
+2025-12-09 16:29:46.437 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png
+2025-12-09 16:29:46.437 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png", parameters={}
+2025-12-09 16:29:46.438 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:29:46.440 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:29:46.440 DEBUG 39294 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:30:36.462 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2025-12-09 16:30:36.463 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2025-12-09 16:30:36.463 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-12-09 16:30:36.464 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-09 16:30:36.465 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-09 16:30:36.466 DEBUG 39294 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs for request '/v3/api-docs'.]
+2025-12-09 16:30:36.466 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-09 16:30:36.466 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:30:36.467 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-12-09 16:30:36.468 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:30:36.468 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/error?continue to session
+2025-12-09 16:30:36.468 DEBUG 39294 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:33:43.114 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /v3/api-docs
+2025-12-09 16:33:43.115 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /v3/api-docs
+2025-12-09 16:33:43.116 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2025-12-09 16:33:43.117 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-12-09 16:33:43.118 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-12-09 16:33:43.119 DEBUG 39294 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource v3/api-docs for request '/v3/api-docs'.]
+2025-12-09 16:33:43.119 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-12-09 16:33:43.119 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:33:43.120 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-12-09 16:33:43.120 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:33:43.121 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8080/error?continue to session
+2025-12-09 16:33:43.121 DEBUG 39294 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-12-09 16:33:49.632  INFO 39294 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 16:33:49.634  INFO 39294 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 16:33:49.635  INFO 39294 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 16:33:51.725  INFO 39294 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 16:33:51.728  INFO 39294 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 16:33:51.732  INFO 39294 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09 16:34:06.131  INFO 43720 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 43720 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-09 16:34:06.132 DEBUG 43720 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-09 16:34:06.132  INFO 43720 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-09 16:34:06.151  INFO 43720 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-09 16:34:06.151  INFO 43720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-09 16:34:06.151  INFO 43720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-09 16:34:06.536  INFO 43720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09 16:34:06.557  INFO 43720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2025-12-09 16:34:06.697  INFO 43720 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=37587fbf-948a-328e-91ae-616ccea0b0f3
+2025-12-09 16:34:07.069  INFO 43720 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-09 16:34:07.076  INFO 43720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09 16:34:07.076  INFO 43720 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 16:34:07.100  INFO 43720 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 948 ms
+2025-12-09 16:34:07.232 DEBUG 43720 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-09 16:34:07.311  INFO 43720 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09 16:34:07.333  INFO 43720 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09 16:34:07.551  INFO 43720 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09 16:34:07.567  INFO 43720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09 16:34:07.715  INFO 43720 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b3c6817
+2025-12-09 16:34:07.716  INFO 43720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09 16:34:07.741  WARN 43720 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09 16:34:07.749  INFO 43720 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09 16:34:08.186  INFO 43720 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09 16:34:08.189  INFO 43720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 16:34:08.265  INFO 43720 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09 16:34:08.694  WARN 43720 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09 16:34:08.799  WARN 43720 --- [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9b94d85a-b15d-41d3-be2b-3ef623175fd7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-09 16:34:08.804  INFO 43720 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-09 16:34:08.880 DEBUG 43720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-09 16:34:08.964 DEBUG 43720 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-12-09 16:34:08.991 DEBUG 43720 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-12-09 16:34:09.012 DEBUG 43720 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-09 16:34:09.049 DEBUG 43720 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-09 16:34:09.435  INFO 43720 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-09 16:34:09.840  INFO 43720 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-09 16:34:09.880  INFO 43720 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 16:34:09.889  INFO 43720 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 3.993 seconds (process running for 4.261)
+2025-12-09 16:34:15.651  INFO 43720 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 16:34:15.651  INFO 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-09 16:34:15.651 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-09 16:34:15.651 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-09 16:34:15.652 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@723977b3
+2025-12-09 16:34:15.652 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@750545d5
+2025-12-09 16:34:15.652 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-09 16:34:15.652  INFO 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-09 16:34:15.663 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui.html
+2025-12-09 16:34:15.670 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui.html
+2025-12-09 16:34:15.671 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2025-12-09 16:34:15.673 DEBUG 43720 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2025-12-09 16:34:15.697 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json, application/yaml]
+2025-12-09 16:34:15.698 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2025-12-09 16:34:15.700 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-12-09 16:34:15.700 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.706 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2025-12-09 16:34:15.706 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2025-12-09 16:34:15.706 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-12-09 16:34:15.708 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.710 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.710 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.749 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2025-12-09 16:34:15.749 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:34:15.750 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:34:15.751 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.752 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:15.753 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.753 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.754 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.754 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.770 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.770 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.774 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.774 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.899 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api-docs/swagger-config
+2025-12-09 16:34:15.900 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api-docs/swagger-config
+2025-12-09 16:34:15.900 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api-docs/swagger-config", parameters={}
+2025-12-09 16:34:15.900 DEBUG 43720 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2025-12-09 16:34:15.901 DEBUG 43720 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2025-12-09 16:34:15.902 DEBUG 43720 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-redir (truncated)...]
+2025-12-09 16:34:15.913 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:15.913 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:15.987 DEBUG 43720 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api-docs
+2025-12-09 16:34:15.988 DEBUG 43720 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api-docs
+2025-12-09 16:34:15.988 DEBUG 43720 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api-docs", parameters={}
+2025-12-09 16:34:15.989 DEBUG 43720 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2025-12-09 16:34:16.136  INFO 43720 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 141 ms
+2025-12-09 16:34:16.143 DEBUG 43720 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2025-12-09 16:34:16.143 DEBUG 43720 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{7b226f70656e617069223a22332e302e31222c22696e666f223a7b227469746c65223a22486f726173706865726520546f6 (truncated)...]
+2025-12-09 16:34:16.144 DEBUG 43720 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:16.144 DEBUG 43720 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.282 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui.html
+2025-12-09 16:34:44.283 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui.html
+2025-12-09 16:34:44.283 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2025-12-09 16:34:44.284 DEBUG 43720 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2025-12-09 16:34:44.287 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json, application/yaml]
+2025-12-09 16:34:44.287 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2025-12-09 16:34:44.287 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2025-12-09 16:34:44.287 DEBUG 43720 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.299 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2025-12-09 16:34:44.300 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2025-12-09 16:34:44.300 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2025-12-09 16:34:44.302 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.305 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.305 DEBUG 43720 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.325 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css
+2025-12-09 16:34:44.327 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css
+2025-12-09 16:34:44.327 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2025-12-09 16:34:44.328 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.343 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.css
+2025-12-09 16:34:44.343 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.css
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:34:44.344 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-initializer.js
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.345 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2025-12-09 16:34:44.346 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.346 DEBUG 43720 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.347 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.347 DEBUG 43720 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.354 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.354 DEBUG 43720 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.509 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api-docs/swagger-config
+2025-12-09 16:34:44.510 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api-docs/swagger-config
+2025-12-09 16:34:44.510 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api-docs/swagger-config", parameters={}
+2025-12-09 16:34:44.510 DEBUG 43720 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2025-12-09 16:34:44.511 DEBUG 43720 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2025-12-09 16:34:44.511 DEBUG 43720 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-redir (truncated)...]
+2025-12-09 16:34:44.513 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.513 DEBUG 43720 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:34:44.531 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api-docs
+2025-12-09 16:34:44.532 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api-docs
+2025-12-09 16:34:44.533 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api-docs", parameters={}
+2025-12-09 16:34:44.533 DEBUG 43720 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2025-12-09 16:34:44.540 DEBUG 43720 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2025-12-09 16:34:44.541 DEBUG 43720 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{7b226f70656e617069223a22332e302e31222c22696e666f223a7b227469746c65223a22486f726173706865726520546f6 (truncated)...]
+2025-12-09 16:34:44.543 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-09 16:34:44.543 DEBUG 43720 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-09 16:36:04.024  INFO 43720 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 16:36:04.026  INFO 43720 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09 16:36:04.029  INFO 43720 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-09 16:36:06.121  INFO 43720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09 16:36:06.125  INFO 43720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09 16:36:06.128  INFO 43720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
