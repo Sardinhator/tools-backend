@@ -2,6 +2,8 @@ package com.intelcom.hora_tools.hora_tools.entity;
 
 import java.io.Serializable;
 
+import com.intelcom.hora_tools.hora_tools.entity.UserRole.UserRoleId;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -13,6 +15,7 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Entity
@@ -21,7 +24,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@IdClass(UserRole.UserRoleId.class)
+@IdClass(UserRoleId.class)
+@EqualsAndHashCode(exclude = { "user" })
 public class UserRole {
 
     @Id
