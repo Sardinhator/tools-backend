@@ -3,13 +3,18 @@ spring:
     name: tools-backend
 
   profiles:
-    active: dev
+    active: local
 
   datasource:
     password: password
     url: "jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC"
     username: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+app:
+  security:
+    authentication:
+      enabled: false
   h2:
     console:
       enabled: true

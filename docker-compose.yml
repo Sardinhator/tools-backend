@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: tools-keycloak
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_DB: dev-mem
+    ports:
+      - "8180:8080"
+    command:
+      - start-dev
+    networks:
+      - tools-network
+
+  mysql:
+    image: mysql:8.0.39
+    container_name: horasphere_north_america
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: horaspheredb
+    ports:
+      - "3307:3306"
+    networks:
+      - tools-network
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+networks:
+  tools-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
