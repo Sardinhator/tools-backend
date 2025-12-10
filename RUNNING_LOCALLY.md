@@ -25,17 +25,19 @@ docker-compose up -d
 
 # 2. Configure Keycloak (see KEYCLOAK_INTEGRATION.md)
 
-# 3. Run with dev profile
-./gradlew bootRun --args='--spring.profiles.active=dev'
+# 3. Run with keycloak profile
+./gradlew bootRun --args='--spring.profiles.active=keycloak'
 ```
 
 ## Available Profiles
 
-| Profile | Authentication | Keycloak Required | Use Case                    |
-| ------- | -------------- | ----------------- | --------------------------- |
-| `local` | ❌ Disabled    | No                | Local development (default) |
-| `dev`   | ✅ Enabled     | Yes               | Testing with Keycloak       |
-| `test`  | ❌ Disabled    | No                | Automated tests             |
+| Profile    | Authentication | Keycloak Required | Use Case                 |
+| ---------- | -------------- | ----------------- | ------------------------ |
+| (default)  | ❌ Disabled    | No                | Local development        |
+| `local`    | ❌ Disabled    | No                | Explicit local dev       |
+| `dev`      | ❌ Disabled    | No                | Development without auth |
+| `keycloak` | ✅ Enabled     | Yes               | Testing with Keycloak    |
+| `test`     | ❌ Disabled    | No                | Automated tests          |
 
 ## Feature Flag
 

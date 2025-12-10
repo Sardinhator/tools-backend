@@ -1,0 +1,21 @@
+# Profile for running with Keycloak authentication enabled
+app:
+  security:
+    authentication:
+      enabled: true
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: tools-backend
+            client-secret: your-client-secret-here
+            scope: openid,profile,email
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8180/realms/horasphere
+            user-name-attribute: preferred_username
