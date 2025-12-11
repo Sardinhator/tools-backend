@@ -30,36 +30,38 @@ import lombok.extern.slf4j.Slf4j;
 @Tag(name = "Users", description = "User management API with roles and groups")
 public class UserController {
 
-    private final UserService userService;
+        private final UserService userService;
 
-    @GetMapping
-    @Operation(summary = "Get all users with pagination", description = "Retrieves a paginated list of users with their roles and groups. Supports sorting by any user field.")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully retrieved list of users", content = @Content(schema = @Schema(implementation = Page.class))),
-            @ApiResponse(responseCode = "400", description = "Invalid pagination parameters")
-    })
-    public ResponseEntity<Page<UserDTO>> getUsers(
-            @Parameter(description = "Page number (0-indexed)", example = "0") @RequestParam(defaultValue = "0") int page,
+        @GetMapping
+        @Operation(summary = "Get all users with pagination", description = "Retrieves a paginated list of users with their roles and groups. Supports sorting by any user field and searching by firstName, lastName, or email.")
+        @ApiResponses(value = {
+                        @ApiResponse(responseCode = "200", description = "Successfully retrieved list of users", content = @Content(schema = @Schema(implementation = Page.class))),
+                        @ApiResponse(responseCode = "400", description = "Invalid pagination parameters")
+        })
+        public ResponseEntity<Page<UserDTO>> getUsers(
+                        @Parameter(description = "Page number (0-indexed)", example = "0") @RequestParam(defaultValue = "0") int page,
 
-            @Parameter(description = "Number of items per page", example = "10") @RequestParam(defaultValue = "10") int size,
+                        @Parameter(description = "Number of items per page", example = "10") @RequestParam(defaultValue = "10") int size,
 
-            @Parameter(description = "Field to sort by", example = "email") @RequestParam(defaultValue = "email") String sortBy,
+                        @Parameter(description = "Field to sort by", example = "email") @RequestParam(defaultValue = "email") String sortBy,
 
-            @Parameter(description = "Sort direction (ASC or DESC)", example = "ASC") @RequestParam(defaultValue = "ASC") String sortDirection) {
+                        @Parameter(description = "Sort direction (ASC or DESC)", example = "ASC") @RequestParam(defaultValue = "ASC") String sortDirection,
 
-        log.info("GET /api/users - page: {}, size: {}, sortBy: {}, sortDirection: {}",
-                page, size, sortBy, sortDirection);
+                        @Parameter(description = "Search term to filter users by firstName, lastName, or email", example = "john") @RequestParam(required = false) String search) {
 
-        Sort.Direction direction = sortDirection.equalsIgnoreCase("DESC")
-                ? Sort.Direction.DESC
-                : Sort.Direction.ASC;
+                log.info("GET /api/users - page: {}, size: {}, sortBy: {}, sortDirection: {}, search: {}",
+                                page, size, sortBy, sortDirection, search);
 
-        Pageable pageable = PageRequest.of(page, size, Sort.by(direction, sortBy));
+                Sort.Direction direction = sortDirection.equalsIgnoreCase("DESC")
+                                ? Sort.Direction.DESC
+                                : Sort.Direction.ASC;
 
-        Page<UserDTO> users = userService.getUsersWithRolesAndGroups(pageable);
+                Pageable pageable = PageRequest.of(page, size, Sort.by(direction, sortBy));
 
-        log.info("Returning {} users out of {} total", users.getNumberOfElements(), users.getTotalElements());
+                Page<UserDTO> users = userService.getUsersWithRolesAndGroups(pageable, search);
 
-        return ResponseEntity.ok(users);
-    }
+                log.info("Returning {} users out of {} total", users.getNumberOfElements(), users.getTotalElements());
+
+                return ResponseEntity.ok(users);
+        }
 }

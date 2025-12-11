@@ -1,24 +1,24 @@
-2025-12-10 06:21:25.415  INFO 60790 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 60790 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
-2025-12-10 06:21:25.416 DEBUG 60790 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
-2025-12-10 06:21:25.417  INFO 60790 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
-2025-12-10 06:21:25.433  INFO 60790 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
-2025-12-10 06:21:25.433  INFO 60790 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-10 06:21:25.433  INFO 60790 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-10 06:21:25.840  INFO 60790 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-10 06:21:25.862  INFO 60790 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
-2025-12-10 06:21:26.024  INFO 60790 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a8d0ec21-efc4-3e01-a0ca-48d31ab8a589
-2025-12-10 06:21:26.384  INFO 60790 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-10 06:21:26.391  INFO 60790 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-10 06:21:26.391  INFO 60790 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-10 06:21:26.411  INFO 60790 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 977 ms
-2025-12-10 06:21:26.511 DEBUG 60790 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2025-12-10 06:21:26.587  INFO 60790 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-10 06:21:26.741  INFO 60790 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@769ff3d5
-2025-12-10 06:21:26.742  INFO 60790 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-10 06:21:26.754  INFO 60790 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-10 06:21:26.778  INFO 60790 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-10 06:21:26.982  INFO 60790 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-10 06:21:27.035  INFO 60790 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-11 16:04:25.275  INFO 71109 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 71109 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-11 16:04:25.276 DEBUG 71109 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 16:04:25.277  INFO 71109 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-11 16:04:25.299  INFO 71109 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-11 16:04:25.299  INFO 71109 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-11 16:04:25.299  INFO 71109 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-11 16:04:25.716  INFO 71109 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11 16:04:25.735  INFO 71109 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2025-12-11 16:04:25.882  INFO 71109 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=69af7246-485f-34db-985a-ac3548c7ca77
+2025-12-11 16:04:26.235  INFO 71109 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-11 16:04:26.241  INFO 71109 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11 16:04:26.242  INFO 71109 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-11 16:04:26.265  INFO 71109 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 966 ms
+2025-12-11 16:04:26.372 DEBUG 71109 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-11 16:04:26.447  INFO 71109 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11 16:04:26.634  INFO 71109 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36fd2e1
+2025-12-11 16:04:26.634  INFO 71109 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11 16:04:26.646  INFO 71109 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11 16:04:26.671  INFO 71109 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-11 16:04:26.872  INFO 71109 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11 16:04:26.921  INFO 71109 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -30,234 +30,685 @@
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-10 06:21:27.488  INFO 60790 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-10 06:21:27.493  INFO 60790 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10 06:21:27.577  INFO 60790 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-10 06:21:27.985 DEBUG 60790 --- [restartedMain] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8180/realms/horasphere/.well-known/openid-configuration
-2025-12-10 06:21:27.991 DEBUG 60790 --- [restartedMain] o.s.web.client.RestTemplate              : Accept=[application/json, application/yaml, application/*+json]
-2025-12-10 06:21:27.994  WARN 60790 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'secureFilterChain' defined in class path resource [com/intelcom/hora_tools/hora_tools/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'secureFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration': Unsatisfied dependency expressed through method 'setContentNegotiationStrategy' parameter 0: Error creating bean with name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-2025-12-10 06:21:27.994  INFO 60790 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-10 06:21:27.995  INFO 60790 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-10 06:21:27.999  INFO 60790 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-10 06:21:28.000  INFO 60790 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-12-10 06:21:28.008  INFO 60790 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-12-11 16:04:27.329  INFO 71109 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11 16:04:27.333  INFO 71109 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11 16:04:27.416  INFO 71109 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-11 16:04:27.859  WARN 71109 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11 16:04:27.955 DEBUG 71109 --- [restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-12-11 16:04:28.031 DEBUG 71109 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-11 16:04:28.116 DEBUG 71109 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-12-11 16:04:28.142 DEBUG 71109 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-12-11 16:04:28.163 DEBUG 71109 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-11 16:04:28.195 DEBUG 71109 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-11 16:04:28.574  INFO 71109 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-11 16:04:28.991  INFO 71109 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-11 16:04:29.035  INFO 71109 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-11 16:04:29.043  INFO 71109 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 4.01 seconds (process running for 4.309)
+2025-12-11 16:04:29.070  INFO 71109 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : ✨ HoraTools Application is ready and running!
+2025-12-11 16:21:01.995  INFO 71109 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11 16:21:01.996  INFO 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11 16:21:01.997 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-11 16:21:01.997 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-11 16:21:02.006 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ef76870
+2025-12-11 16:21:02.006 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@51ece90b
+2025-12-11 16:21:02.006 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-11 16:21:02.007  INFO 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-12-11 16:21:02.019 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:21:02.038 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:21:02.040 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:21:02.045 DEBUG 71109 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:21:02.066  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:21:02.080 DEBUG 71109 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:21:02.099  WARN 71109 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:21:02.127 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:21:02.314 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:21:02.333  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:21:02.354 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:21:02.354 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:21:02.376  WARN 71109 --- [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-12-10 06:21:28.014 ERROR 60790 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2025-12-11 16:21:02.387 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:21:02.388 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:22:00.246 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:22:00.249 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:22:00.249 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:22:00.250 DEBUG 71109 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:22:00.252  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:22:00.258 DEBUG 71109 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:22:00.258  WARN 71109 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:22:00.260 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:22:00.377 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:22:00.384  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:22:00.384 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:22:00.385 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:22:00.386 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:22:00.386 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:22:00.387 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:22:00.387 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:22:00.388 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:22:00.388 DEBUG 71109 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:22:00.388  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:22:00.389 DEBUG 71109 --- [http-nio-8080-exec-3] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:22:00.389  WARN 71109 --- [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:22:00.390 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:22:00.475 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:22:00.481  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:22:00.482 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:22:00.482 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:22:00.483 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:22:00.483 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:23:32.022 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10
+2025-12-11 16:23:32.024 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10
+2025-12-11 16:23:32.024 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10", parameters={masked}
+2025-12-11 16:23:32.025 DEBUG 71109 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:23:32.026  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:23:32.032 DEBUG 71109 --- [http-nio-8080-exec-6] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:23:32.033  WARN 71109 --- [http-nio-8080-exec-6] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:23:32.033 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:23:32.155 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:23:32.166  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:23:32.167 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:23:32.167 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:23:32.168 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:23:32.168 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:25:21.501 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:25:21.502 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:25:21.503 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:25:21.503 DEBUG 71109 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:25:21.504  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:25:21.510 DEBUG 71109 --- [http-nio-8080-exec-8] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:25:21.511  WARN 71109 --- [http-nio-8080-exec-8] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:25:21.511 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:25:21.612 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:25:21.621  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:25:21.622 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:25:21.622 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:25:21.623 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:25:21.623 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:25:21.627 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:25:21.627 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:25:21.627 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:25:21.627 DEBUG 71109 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:25:21.628  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:25:21.629 DEBUG 71109 --- [http-nio-8080-exec-9] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:25:21.629  WARN 71109 --- [http-nio-8080-exec-9] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:25:21.629 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:25:21.723 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:25:21.729  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:25:21.730 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:25:21.730 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:25:21.731 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:25:21.731 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:27:09.718 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:27:09.719 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:27:09.720 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:27:09.720 DEBUG 71109 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:27:09.721  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:27:09.725 DEBUG 71109 --- [http-nio-8080-exec-10] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:27:09.726  WARN 71109 --- [http-nio-8080-exec-10] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:27:09.726 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:27:09.827 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:27:09.835  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:27:09.836 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:27:09.836 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:27:09.837 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:27:09.837 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:30:35.849 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:30:35.852 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:30:35.852 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:30:35.853 DEBUG 71109 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:30:35.854  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:30:35.862 DEBUG 71109 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:30:35.862  WARN 71109 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:30:35.863 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:30:35.970 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:30:35.976  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:30:35.976 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:30:35.976 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:30:35.977 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:30:35.977 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:30:35.980 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:30:35.980 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:30:35.981 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:30:35.981 DEBUG 71109 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:30:35.981  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:30:35.982 DEBUG 71109 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:30:35.983  WARN 71109 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:30:35.983 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:30:36.066 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:30:36.072  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:30:36.073 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:30:36.073 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:30:36.074 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:30:36.074 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:33:43.807 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:33:43.807 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:33:43.808 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:33:43.808 DEBUG 71109 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:33:43.809  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:33:43.812 DEBUG 71109 --- [http-nio-8080-exec-3] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:33:43.812  WARN 71109 --- [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:33:43.812 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:33:43.917 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:33:43.924  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:33:43.924 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:33:43.924 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:33:43.925 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:33:43.925 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:35:35.978 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=1&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:35:35.979 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=1&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:35:35.979 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=1&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:35:35.980 DEBUG 71109 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:35:35.980  INFO 71109 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : GET /api/users - page: 1, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:35:35.985 DEBUG 71109 --- [http-nio-8080-exec-5] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 1, Size: 10
+2025-12-11 16:35:35.986  WARN 71109 --- [http-nio-8080-exec-5] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:35:35.986 DEBUG 71109 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:35:36.094 DEBUG 71109 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:35:36.105  INFO 71109 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:35:36.106 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:35:36.106 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 2 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:35:36.107 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:35:36.107 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:35:55.650 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=2&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:35:55.650 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=2&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:35:55.651 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=2&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:35:55.651 DEBUG 71109 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:35:55.652  INFO 71109 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : GET /api/users - page: 2, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:35:55.660 DEBUG 71109 --- [http-nio-8080-exec-4] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 2, Size: 10
+2025-12-11 16:35:55.660  WARN 71109 --- [http-nio-8080-exec-4] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:35:55.661 DEBUG 71109 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:35:55.770 DEBUG 71109 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:35:55.776  INFO 71109 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:35:55.777 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:35:55.777 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 3 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:35:55.777 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:35:55.778 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:36:01.904 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=3&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:36:01.905 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=3&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:36:01.905 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=3&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:36:01.906 DEBUG 71109 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:36:01.906  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : GET /api/users - page: 3, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:36:01.908 DEBUG 71109 --- [http-nio-8080-exec-6] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 3, Size: 10
+2025-12-11 16:36:01.909  WARN 71109 --- [http-nio-8080-exec-6] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:36:01.909 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:36:02.006 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:36:02.012  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:36:02.012 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:36:02.012 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 4 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:36:02.014 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:36:02.014 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:36:10.451 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=4&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:36:10.453 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=4&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:36:10.453 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=4&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:36:10.453 DEBUG 71109 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:36:10.454  INFO 71109 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : GET /api/users - page: 4, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:36:10.460 DEBUG 71109 --- [http-nio-8080-exec-7] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 4, Size: 10
+2025-12-11 16:36:10.460  WARN 71109 --- [http-nio-8080-exec-7] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:36:10.461 DEBUG 71109 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:36:10.569 DEBUG 71109 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:36:10.578  INFO 71109 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:36:10.579 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:36:10.579 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 5 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:36:10.580 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:36:10.580 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:37:00.788 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=5&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:37:00.789 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=5&size=10&sortBy=email&sortDirection=ASC
+2025-12-11 16:37:00.789 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=5&size=10&sortBy=email&sortDirection=ASC", parameters={masked}
+2025-12-11 16:37:00.789 DEBUG 71109 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:37:00.791  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : GET /api/users - page: 5, size: 10, sortBy: email, sortDirection: ASC
+2025-12-11 16:37:00.798 DEBUG 71109 --- [http-nio-8080-exec-8] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 5, Size: 10
+2025-12-11 16:37:00.799  WARN 71109 --- [http-nio-8080-exec-8] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:37:00.799 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.email
+2025-12-11 16:37:00.914 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:37:00.923  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:37:00.924 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:37:00.924 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 6 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:37:00.925 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:37:00.925 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:40:45.088 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:45.089 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:45.089 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:40:45.089 DEBUG 71109 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:40:45.090  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:40:45.094 DEBUG 71109 --- [http-nio-8080-exec-9] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:40:45.098  WARN 71109 --- [http-nio-8080-exec-9] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:40:45.100 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:40:45.208 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:40:45.214  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:40:45.215 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:40:45.215 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:40:45.215 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:40:45.216 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:40:45.220 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:45.220 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:45.220 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:40:45.220 DEBUG 71109 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:40:45.221  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:40:45.222 DEBUG 71109 --- [http-nio-8080-exec-10] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:40:45.222  WARN 71109 --- [http-nio-8080-exec-10] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:40:45.222 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:40:45.300 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:40:45.306  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:40:45.306 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:40:45.306 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:40:45.307 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:40:45.307 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:40:58.840 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=1&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:58.841 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=1&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:40:58.841 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=1&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:40:58.842 DEBUG 71109 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:40:58.844  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 1, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:40:58.848 DEBUG 71109 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 1, Size: 10
+2025-12-11 16:40:58.848  WARN 71109 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:40:58.848 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:40:58.971 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:40:58.978  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:40:58.978 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:40:58.979 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 2 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:40:58.979 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:40:58.979 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:41:07.970 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=2&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:41:07.971 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=2&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:41:07.971 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=2&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:41:07.971 DEBUG 71109 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:41:07.972  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 2, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:41:07.976 DEBUG 71109 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 2, Size: 10
+2025-12-11 16:41:07.977  WARN 71109 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:41:07.977 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:41:08.085 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:41:08.091  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:41:08.091 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:41:08.092 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 3 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:41:08.092 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:41:08.092 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:08.435 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:08.435 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:08.436 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:08.436 DEBUG 71109 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:08.437  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:08.440 DEBUG 71109 --- [http-nio-8080-exec-3] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:08.441  WARN 71109 --- [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:08.441 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:08.546 DEBUG 71109 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:08.552  INFO 71109 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:08.552 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:08.552 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:08.553 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:08.554 DEBUG 71109 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:32.726 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:32.726 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:32.727 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:32.727 DEBUG 71109 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:32.728  INFO 71109 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:32.733 DEBUG 71109 --- [http-nio-8080-exec-5] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:32.734  WARN 71109 --- [http-nio-8080-exec-5] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:32.734 DEBUG 71109 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:32.851 DEBUG 71109 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:32.857  INFO 71109 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:32.857 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:32.857 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:32.858 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:32.858 DEBUG 71109 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:40.370 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:40.372 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:40.372 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:40.373 DEBUG 71109 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:40.374  INFO 71109 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:40.379 DEBUG 71109 --- [http-nio-8080-exec-4] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:40.380  WARN 71109 --- [http-nio-8080-exec-4] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:40.380 DEBUG 71109 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:40.497 DEBUG 71109 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:40.507  INFO 71109 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:40.508 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:40.508 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:40.509 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:40.509 DEBUG 71109 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:48.713 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:48.715 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:48.715 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:48.715 DEBUG 71109 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:48.717  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:48.722 DEBUG 71109 --- [http-nio-8080-exec-6] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:48.723  WARN 71109 --- [http-nio-8080-exec-6] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:48.723 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:48.836 DEBUG 71109 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:48.845  INFO 71109 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:48.846 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:48.846 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:48.847 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:48.847 DEBUG 71109 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:48.853 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:48.854 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:48.854 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:48.854 DEBUG 71109 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:48.854  INFO 71109 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:48.855 DEBUG 71109 --- [http-nio-8080-exec-7] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:48.855  WARN 71109 --- [http-nio-8080-exec-7] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:48.856 DEBUG 71109 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:48.937 DEBUG 71109 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:48.944  INFO 71109 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:48.945 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:48.945 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:48.946 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:48.946 DEBUG 71109 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:51.642 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:51.643 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:51.643 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:51.644 DEBUG 71109 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:51.645  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:51.654 DEBUG 71109 --- [http-nio-8080-exec-8] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:51.655  WARN 71109 --- [http-nio-8080-exec-8] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:51.655 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:51.757 DEBUG 71109 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:51.763  INFO 71109 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:51.763 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:51.763 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:51.764 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:51.764 DEBUG 71109 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:53.444 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:53.447 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:53.447 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:53.448 DEBUG 71109 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:53.449  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:53.455 DEBUG 71109 --- [http-nio-8080-exec-9] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:53.455  WARN 71109 --- [http-nio-8080-exec-9] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:53.456 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:53.578 DEBUG 71109 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:53.588  INFO 71109 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:53.589 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:53.589 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:53.590 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:53.590 DEBUG 71109 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:54.146 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:54.147 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:54.147 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:54.147 DEBUG 71109 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:54.149  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:54.152 DEBUG 71109 --- [http-nio-8080-exec-10] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:54.152  WARN 71109 --- [http-nio-8080-exec-10] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:54.153 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:54.261 DEBUG 71109 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:54.267  INFO 71109 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:54.268 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:54.268 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:54.269 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:54.269 DEBUG 71109 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:54.678 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:54.679 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:54.679 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:54.680 DEBUG 71109 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:54.681  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:54.685 DEBUG 71109 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:54.685  WARN 71109 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:54.685 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:54.796 DEBUG 71109 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:54.807  INFO 71109 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:54.807 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:54.808 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:54.808 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:54.808 DEBUG 71109 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:42:55.442 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:55.443 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:42:55.444 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:42:55.444 DEBUG 71109 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String)
+2025-12-11 16:42:55.445  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc
+2025-12-11 16:42:55.451 DEBUG 71109 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10
+2025-12-11 16:42:55.451  WARN 71109 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:42:55.452 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:42:55.559 DEBUG 71109 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:42:55.566  INFO 71109 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:42:55.566 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:42:55.566 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:42:55.567 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:42:55.567 DEBUG 71109 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:43:29.877  INFO 71109 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-11 16:43:29.878  INFO 71109 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-11 16:43:29.880  INFO 71109 --- [SpringApplicationShutdownHook] o.a.pulsar.client.impl.PulsarClientImpl  : Client closing. URL: pulsar://localhost:6650
+2025-12-11 16:43:31.960  INFO 71109 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11 16:43:31.962  INFO 71109 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-11 16:43:31.966  INFO 71109 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-11 16:46:07.789  INFO 8808 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Starting HoraToolsApplication using Java 21.0.6 with PID 8808 (/Users/serge.o.sardinha/workspace/tools-backend/build/classes/java/main started by serge.o.sardinha in /Users/serge.o.sardinha/workspace/tools-backend)
+2025-12-11 16:46:07.790 DEBUG 8808 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-11 16:46:07.790  INFO 8808 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : The following 1 profile is active: "dev"
+2025-12-11 16:46:07.805  INFO 8808 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in /Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-caffeine-2.0.0.jar referenced one or more files that do not exist: file:/Users/serge.o.sardinha/.gradle/caches/modules-2/files-2.1/org.springframework.pulsar/spring-pulsar-cache-provider-caffeine/2.0.0/4620d1779b958715f4f614b44e85fe1750f59a64/spring-pulsar-cache-provider-2.0.0.jar
+2025-12-11 16:46:07.805  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-11 16:46:07.805  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-11 16:46:08.174  INFO 8808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-11 16:46:08.198  INFO 8808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-12-11 16:46:08.365  INFO 8808 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=69af7246-485f-34db-985a-ac3548c7ca77
+2025-12-11 16:46:08.728  INFO 8808 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-11 16:46:08.735  INFO 8808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-11 16:46:08.736  INFO 8808 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-11 16:46:08.759  INFO 8808 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 954 ms
+2025-12-11 16:46:08.872 DEBUG 8808 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-12-11 16:46:08.952  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-11 16:46:09.113  INFO 8808 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a9ce229
+2025-12-11 16:46:09.114  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-11 16:46:09.127  INFO 8808 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-11 16:46:09.151  INFO 8808 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-11 16:46:09.371  INFO 8808 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-11 16:46:09.423  INFO 8808 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.39
+	Default catalog/schema: horaspheredb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-11 16:46:09.863  INFO 8808 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-11 16:46:09.868  INFO 8808 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-11 16:46:09.944  INFO 8808 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-11 16:46:10.465  WARN 8808 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-11 16:46:10.566 DEBUG 8808 --- [restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-12-11 16:46:10.643 DEBUG 8808 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-12-11 16:46:10.733 DEBUG 8808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2025-12-11 16:46:10.763 DEBUG 8808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-12-11 16:46:10.784 DEBUG 8808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-11 16:46:10.816 DEBUG 8808 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-11 16:46:11.306  INFO 8808 --- [restartedMain] o.s.p.core.DefaultPulsarClientFactory    : Using restartable client
+2025-12-11 16:46:11.816  INFO 8808 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-12-11 16:46:11.865  INFO 8808 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-11 16:46:11.875  INFO 8808 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : Started HoraToolsApplication in 4.303 seconds (process running for 4.572)
+2025-12-11 16:46:11.905  INFO 8808 --- [restartedMain] c.i.h.hora_tools.HoraToolsApplication    : ✨ HoraTools Application is ready and running!
+2025-12-11 16:46:33.981  INFO 8808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11 16:46:33.981  INFO 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-11 16:46:33.981 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-12-11 16:46:33.981 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-12-11 16:46:33.982 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@61d8d4ac
+2025-12-11 16:46:33.982 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@57a984b
+2025-12-11 16:46:33.982 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-12-11 16:46:33.983  INFO 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-11 16:46:33.991 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:34.001 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:34.002 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:46:34.004 DEBUG 8808 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:46:34.015  INFO 8808 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:46:34.022 DEBUG 8808 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:46:34.032  WARN 8808 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:46:34.059 DEBUG 8808 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:46:34.187 DEBUG 8808 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:46:34.198  INFO 8808 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:46:34.219 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:46:34.220 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:46:34.243  WARN 8808 --- [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'secureFilterChain' defined in class path resource [com/intelcom/hora_tools/hora_tools/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'secureFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration': Unsatisfied dependency expressed through method 'setContentNegotiationStrategy' parameter 0: Error creating bean with name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
-	at com.intelcom.hora_tools.hora_tools.HoraToolsApplication.main(HoraToolsApplication.java:10)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'secureFilterChain' defined in class path resource [com/intelcom/hora_tools/hora_tools/config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'secureFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration': Unsatisfied dependency expressed through method 'setContentNegotiationStrategy' parameter 0: Error creating bean with name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
-	... 25 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration': Unsatisfied dependency expressed through method 'setContentNegotiationStrategy' parameter 0: Error creating bean with name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:413)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:351)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 42 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:413)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
-	... 64 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration': Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
-	... 87 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration]: Constructor threw exception
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:129)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
-	... 104 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'OAuth2AuthorizedClientManager': Failed to instantiate [org.springframework.security.oauth2.client.OAuth2AuthorizedClientManager]: Factory method 'getAuthorizedClientManager' threw exception with message: Error creating bean with name 'clientRegistrationRepository' defined in class path resource [org/springframework/boot/security/oauth2/client/autoconfigure/OAuth2ClientConfigurations$ClientRegistrationRepositoryConfiguration.class]: Failed to instantiate [org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository]: Factory method 'clientRegistrationRepository' threw exception with message: Unable to resolve Configuration with the provided Issuer of "http://localhost:8180/realms/horasphere"
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfUnique(DefaultListableBeanFactory.java:2610)
-	at org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2ClientWebMvcSecurityConfiguration.<init>(OAuth2ClientConfiguration.java:129)
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
-	... 106 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.client.OAuth2AuthorizedClientManager]: Factory method 'getAuthorizedClientManager' threw exception with message: Error creating bean with name 'clientRegistrationRepository' defined in class path resource [org/springframework/boot/security/oauth2/client/autoconfigure/OAuth2ClientConfigurations$ClientRegistrationRepositoryConfiguration.class]: Failed to instantiate [org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository]: Factory method 'clientRegistrationRepository' threw exception with message: Unable to resolve Configuration with the provided Issuer of "http://localhost:8180/realms/horasphere"
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
-	... 123 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientRegistrationRepository' defined in class path resource [org/springframework/boot/security/oauth2/client/autoconfigure/OAuth2ClientConfigurations$ClientRegistrationRepositoryConfiguration.class]: Failed to instantiate [org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository]: Factory method 'clientRegistrationRepository' threw exception with message: Unable to resolve Configuration with the provided Issuer of "http://localhost:8180/realms/horasphere"
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:740)
-	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:373)
-	at org.springframework.beans.factory.BeanFactoryUtils.beanOfTypeIncludingAncestors(BeanFactoryUtils.java:451)
-	at org.springframework.security.config.annotation.web.configuration.OAuth2ClientConfiguration$OAuth2AuthorizedClientManagerRegistrar.getAuthorizedClientManager(OAuth2ClientConfiguration.java:221)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
-	... 126 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository]: Factory method 'clientRegistrationRepository' threw exception with message: Unable to resolve Configuration with the provided Issuer of "http://localhost:8180/realms/horasphere"
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
-	... 142 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Unable to resolve Configuration with the provided Issuer of "http://localhost:8180/realms/horasphere"
-	at org.springframework.security.oauth2.client.registration.ClientRegistrations.getBuilder(ClientRegistrations.java:286)
-	at org.springframework.security.oauth2.client.registration.ClientRegistrations.fromIssuerLocation(ClientRegistrations.java:193)
-	at org.springframework.boot.security.oauth2.client.autoconfigure.OAuth2ClientPropertiesMapper.getBuilderFromIssuerIfPossible(OAuth2ClientPropertiesMapper.java:99)
-	at org.springframework.boot.security.oauth2.client.autoconfigure.OAuth2ClientPropertiesMapper.getClientRegistration(OAuth2ClientPropertiesMapper.java:73)
-	at org.springframework.boot.security.oauth2.client.autoconfigure.OAuth2ClientPropertiesMapper.lambda$asClientRegistrations$0(OAuth2ClientPropertiesMapper.java:67)
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
-	at org.springframework.boot.security.oauth2.client.autoconfigure.OAuth2ClientPropertiesMapper.asClientRegistrations(OAuth2ClientPropertiesMapper.java:66)
-	at org.springframework.boot.security.oauth2.client.autoconfigure.OAuth2ClientConfigurations$ClientRegistrationRepositoryConfiguration.clientRegistrationRepository(OAuth2ClientConfigurations.java:50)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
-	... 145 common frames omitted
-Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8180/realms/horasphere/.well-known/openid-configuration": Connection refused
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:780)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:760)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:629)
-	at org.springframework.security.oauth2.client.registration.ClientRegistrations.lambda$oidc$0(ClientRegistrations.java:201)
-	at org.springframework.security.oauth2.client.registration.ClientRegistrations.getBuilder(ClientRegistrations.java:273)
-	... 155 common frames omitted
-Caused by: java.net.ConnectException: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
-	at java.base/java.net.Socket.connect(Socket.java:751)
-	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
-	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
-	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:386)
-	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:408)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1319)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1252)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1067)
-	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:754)
-	... 158 common frames omitted
-
+2025-12-11 16:46:34.254 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:46:34.254 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:46:34.258 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:34.258 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:34.259 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:46:34.259 DEBUG 8808 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:46:34.259  INFO 8808 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:46:34.261 DEBUG 8808 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:46:34.261  WARN 8808 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:46:34.262 DEBUG 8808 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:46:34.348 DEBUG 8808 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:46:34.355  INFO 8808 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:46:34.356 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:46:34.356 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:46:34.358 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:46:34.358 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:46:37.647 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:37.648 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:37.648 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:46:37.649 DEBUG 8808 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:46:37.650  INFO 8808 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:46:37.652 DEBUG 8808 --- [http-nio-8080-exec-3] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:46:37.653  WARN 8808 --- [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:46:37.653 DEBUG 8808 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:46:37.755 DEBUG 8808 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:46:37.762  INFO 8808 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:46:37.762 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:46:37.762 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:46:37.764 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:46:37.764 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:46:52.773 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:52.775 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:46:52.775 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:46:52.775 DEBUG 8808 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:46:52.776  INFO 8808 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:46:52.780 DEBUG 8808 --- [http-nio-8080-exec-4] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:46:52.781  WARN 8808 --- [http-nio-8080-exec-4] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:46:52.781 DEBUG 8808 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:46:52.865 DEBUG 8808 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:46:52.871  INFO 8808 --- [http-nio-8080-exec-4] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:46:52.872 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:46:52.872 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:46:52.872 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:46:52.873 DEBUG 8808 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:04.878 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:04.879 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:04.879 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:48:04.880 DEBUG 8808 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:04.881  INFO 8808 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:48:04.888 DEBUG 8808 --- [http-nio-8080-exec-5] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:48:04.889  WARN 8808 --- [http-nio-8080-exec-5] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:04.889 DEBUG 8808 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:48:05.002 DEBUG 8808 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:48:05.014  INFO 8808 --- [http-nio-8080-exec-5] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:48:05.015 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:05.015 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:05.016 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:05.016 DEBUG 8808 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:05.025 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:05.025 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:05.025 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:48:05.026 DEBUG 8808 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:05.026  INFO 8808 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:48:05.028 DEBUG 8808 --- [http-nio-8080-exec-6] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:48:05.028  WARN 8808 --- [http-nio-8080-exec-6] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:05.028 DEBUG 8808 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:48:05.112 DEBUG 8808 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:48:05.119  INFO 8808 --- [http-nio-8080-exec-6] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:48:05.119 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:05.119 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:05.120 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:05.120 DEBUG 8808 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:08.473 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Sardinha
+2025-12-11 16:48:08.474 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Sardinha
+2025-12-11 16:48:08.474 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Sardinha", parameters={masked}
+2025-12-11 16:48:08.474 DEBUG 8808 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:08.475  INFO 8808 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: Sardinha
+2025-12-11 16:48:08.478 DEBUG 8808 --- [http-nio-8080-exec-7] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: Sardinha
+2025-12-11 16:48:08.483  WARN 8808 --- [http-nio-8080-exec-7] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:08.490 DEBUG 8808 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '' order by u1_0.first_name
+2025-12-11 16:48:08.524 DEBUG 8808 --- [http-nio-8080-exec-7] c.i.h.hora_tools.service.UserService     : Search returned 1 users
+2025-12-11 16:48:08.526  INFO 8808 --- [http-nio-8080-exec-7] c.i.h.h.controller.UserController        : Returning 1 users out of 1 total
+2025-12-11 16:48:08.526 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:08.526 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:08.527 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:08.527 DEBUG 8808 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:20.450 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:20.451 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:20.451 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:48:20.452 DEBUG 8808 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:20.453  INFO 8808 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:48:20.456 DEBUG 8808 --- [http-nio-8080-exec-8] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:48:20.457  WARN 8808 --- [http-nio-8080-exec-8] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:20.457 DEBUG 8808 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:48:20.586 DEBUG 8808 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:48:20.594  INFO 8808 --- [http-nio-8080-exec-8] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:48:20.595 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:20.595 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:20.596 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:20.596 DEBUG 8808 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:20.599 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:20.599 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:20.599 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:48:20.599 DEBUG 8808 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:20.600  INFO 8808 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:48:20.601 DEBUG 8808 --- [http-nio-8080-exec-9] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:48:20.601  WARN 8808 --- [http-nio-8080-exec-9] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:20.601 DEBUG 8808 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:48:20.683 DEBUG 8808 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:48:20.690  INFO 8808 --- [http-nio-8080-exec-9] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:48:20.690 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:20.690 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:20.692 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:20.692 DEBUG 8808 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:37.319 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Ast
+2025-12-11 16:48:37.321 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Ast
+2025-12-11 16:48:37.322 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=Ast", parameters={masked}
+2025-12-11 16:48:37.323 DEBUG 8808 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:37.324  INFO 8808 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: Ast
+2025-12-11 16:48:37.329 DEBUG 8808 --- [http-nio-8080-exec-10] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: Ast
+2025-12-11 16:48:37.329  WARN 8808 --- [http-nio-8080-exec-10] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:37.332 DEBUG 8808 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '' order by u1_0.first_name
+2025-12-11 16:48:37.336 DEBUG 8808 --- [http-nio-8080-exec-10] c.i.h.hora_tools.service.UserService     : Search returned 1 users
+2025-12-11 16:48:37.339  INFO 8808 --- [http-nio-8080-exec-10] c.i.h.h.controller.UserController        : Returning 1 users out of 1 total
+2025-12-11 16:48:37.340 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:37.340 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:37.341 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:37.341 DEBUG 8808 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:39.566 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=test
+2025-12-11 16:48:39.567 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=test
+2025-12-11 16:48:39.567 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc&search=test", parameters={masked}
+2025-12-11 16:48:39.567 DEBUG 8808 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:39.568  INFO 8808 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: test
+2025-12-11 16:48:39.573 DEBUG 8808 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: test
+2025-12-11 16:48:39.574  WARN 8808 --- [http-nio-8080-exec-1] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:39.577 DEBUG 8808 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '' order by u1_0.first_name
+2025-12-11 16:48:39.592 DEBUG 8808 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '') derived1_0(c0_id)
+2025-12-11 16:48:39.595 DEBUG 8808 --- [http-nio-8080-exec-1] c.i.h.hora_tools.service.UserService     : Search returned 30 users
+2025-12-11 16:48:39.600  INFO 8808 --- [http-nio-8080-exec-1] c.i.h.h.controller.UserController        : Returning 10 users out of 30 total
+2025-12-11 16:48:39.601 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:39.601 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 3 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:39.603 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:39.603 DEBUG 8808 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:46.123 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=1&size=10&sortBy=firstName&sortDirection=asc&search=test
+2025-12-11 16:48:46.125 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=1&size=10&sortBy=firstName&sortDirection=asc&search=test
+2025-12-11 16:48:46.128 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=1&size=10&sortBy=firstName&sortDirection=asc&search=test", parameters={masked}
+2025-12-11 16:48:46.128 DEBUG 8808 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:46.130  INFO 8808 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : GET /api/users - page: 1, size: 10, sortBy: firstName, sortDirection: asc, search: test
+2025-12-11 16:48:46.135 DEBUG 8808 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 1, Size: 10, Search: test
+2025-12-11 16:48:46.136  WARN 8808 --- [http-nio-8080-exec-2] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:46.140 DEBUG 8808 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '' order by u1_0.first_name
+2025-12-11 16:48:46.156 DEBUG 8808 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id where lower(u1_0.first_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.last_name) like lower(concat('%',?,'%')) escape '' or lower(u1_0.email) like lower(concat('%',?,'%')) escape '') derived1_0(c0_id)
+2025-12-11 16:48:46.160 DEBUG 8808 --- [http-nio-8080-exec-2] c.i.h.hora_tools.service.UserService     : Search returned 30 users
+2025-12-11 16:48:46.165  INFO 8808 --- [http-nio-8080-exec-2] c.i.h.h.controller.UserController        : Returning 10 users out of 30 total
+2025-12-11 16:48:46.165 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:46.166 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 2 of 3 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:46.167 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:46.167 DEBUG 8808 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-12-11 16:48:54.958 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:54.959 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/users?page=0&size=10&sortBy=firstName&sortDirection=asc
+2025-12-11 16:48:54.960 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/users?page=0&size=10&sortBy=firstName&sortDirection=asc", parameters={masked}
+2025-12-11 16:48:54.960 DEBUG 8808 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.intelcom.hora_tools.hora_tools.controller.UserController#getUsers(int, int, String, String, String)
+2025-12-11 16:48:54.961  INFO 8808 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : GET /api/users - page: 0, size: 10, sortBy: firstName, sortDirection: asc, search: null
+2025-12-11 16:48:54.965 DEBUG 8808 --- [http-nio-8080-exec-3] c.i.h.hora_tools.service.UserService     : Fetching users with roles and groups - Page: 0, Size: 10, Search: null
+2025-12-11 16:48:54.965  WARN 8808 --- [http-nio-8080-exec-3] org.hibernate.orm.query                  : HHH90003004: firstResult/maxResults specified with collection fetch; applying in memory
+2025-12-11 16:48:54.966 DEBUG 8808 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select distinct u1_0.id,u1_0.email,u1_0.enabled,u1_0.extension,u1_0.first_name,u1_0.is_automated_test_user,u1_0.is_system_admin,u1_0.language,u1_0.last_name,u1_0.locked,u1_0.password,u1_0.telephone,u1_0.temporary_password,ug1_0.user_id,ug1_0.group_id,ur1_0.user_id,ur1_0.role,u1_0.user_type from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id order by u1_0.first_name
+2025-12-11 16:48:55.083 DEBUG 8808 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select count(*) from (select distinct u1_0.id from `users` u1_0 left join `user_roles` ur1_0 on u1_0.id=ur1_0.user_id left join `user_group` ug1_0 on u1_0.id=ug1_0.user_id) derived1_0(c0_id)
+2025-12-11 16:48:55.089  INFO 8808 --- [http-nio-8080-exec-3] c.i.h.h.controller.UserController        : Returning 10 users out of 69 total
+2025-12-11 16:48:55.090 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/yaml]
+2025-12-11 16:48:55.090 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 7 containing com.intelcom.hora_tools.hora_tools.dto.UserDTO instances]
+2025-12-11 16:48:55.091 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-12-11 16:48:55.091 DEBUG 8808 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext

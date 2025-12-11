@@ -19,4 +19,10 @@ public interface UserRepository extends JpaRepository<User, String> {
 
     @Query("SELECT DISTINCT u FROM User u LEFT JOIN FETCH u.userRoles LEFT JOIN FETCH u.userGroups")
     Page<User> findAllWithRolesAndGroups(Pageable pageable);
+
+    @Query("SELECT DISTINCT u FROM User u LEFT JOIN FETCH u.userRoles LEFT JOIN FETCH u.userGroups " +
+            "WHERE LOWER(u.firstName) LIKE LOWER(CONCAT('%', :search, '%')) " +
+            "OR LOWER(u.lastName) LIKE LOWER(CONCAT('%', :search, '%')) " +
+            "OR LOWER(u.email) LIKE LOWER(CONCAT('%', :search, '%'))")
+    Page<User> searchUsersWithRolesAndGroups(String search, Pageable pageable);
 }

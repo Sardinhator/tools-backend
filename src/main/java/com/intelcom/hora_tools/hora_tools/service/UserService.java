@@ -20,38 +20,44 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional(readOnly = true)
 public class UserService {
 
-    private final UserRepository userRepository;
+        private final UserRepository userRepository;
 
-    public Page<UserDTO> getUsersWithRolesAndGroups(Pageable pageable) {
-        log.debug("Fetching users with roles and groups - Page: {}, Size: {}",
-                pageable.getPageNumber(), pageable.getPageSize());
+        public Page<UserDTO> getUsersWithRolesAndGroups(Pageable pageable, String search) {
+                log.debug("Fetching users with roles and groups - Page: {}, Size: {}, Search: {}",
+                                pageable.getPageNumber(), pageable.getPageSize(), search);
 
-        Page<User> users = userRepository.findAllWithRolesAndGroups(pageable);
+                Page<User> users;
+                if (search != null && !search.trim().isEmpty()) {
+                        users = userRepository.searchUsersWithRolesAndGroups(search.trim(), pageable);
+                        log.debug("Search returned {} users", users.getTotalElements());
+                } else {
+                        users = userRepository.findAllWithRolesAndGroups(pageable);
+                }
 
-        return users.map(this::convertToDTO);
-    }
+                return users.map(this::convertToDTO);
+        }
 
-    private UserDTO convertToDTO(User user) {
-        return UserDTO.builder()
-                .id(user.getId())
-                .email(user.getEmail())
-                .firstName(user.getFirstName())
-                .lastName(user.getLastName())
-                .enabled(user.getEnabled())
-                .language(user.getLanguage())
-                .telephone(user.getTelephone())
-                .extension(user.getExtension())
-                .isSystemAdmin(user.getIsSystemAdmin())
-                .isAutomatedTestUser(user.getIsAutomatedTestUser())
-                .locked(user.getLocked())
-                .temporaryPassword(user.getTemporaryPassword())
-                .userType(user.getUserType())
-                .roles(user.getUserRoles() != null ? user.getUserRoles().stream()
-                        .map(ur -> ur.getRole())
-                        .collect(Collectors.toSet()) : null)
-                .groups(user.getUserGroups() != null ? user.getUserGroups().stream()
-                        .map(ug -> ug.getGroupId())
-                        .collect(Collectors.toSet()) : null)
-                .build();
-    }
+        private UserDTO convertToDTO(User user) {
+                return UserDTO.builder()
+                                .id(user.getId())
+                                .email(user.getEmail())
+                                .firstName(user.getFirstName())
+                                .lastName(user.getLastName())
+                                .enabled(user.getEnabled())
+                                .language(user.getLanguage())
+                                .telephone(user.getTelephone())
+                                .extension(user.getExtension())
+                                .isSystemAdmin(user.getIsSystemAdmin())
+                                .isAutomatedTestUser(user.getIsAutomatedTestUser())
+                                .locked(user.getLocked())
+                                .temporaryPassword(user.getTemporaryPassword())
+                                .userType(user.getUserType())
+                                .roles(user.getUserRoles() != null ? user.getUserRoles().stream()
+                                                .map(ur -> ur.getRole())
+                                                .collect(Collectors.toSet()) : null)
+                                .groups(user.getUserGroups() != null ? user.getUserGroups().stream()
+                                                .map(ug -> ug.getGroupId())
+                                                .collect(Collectors.toSet()) : null)
+                                .build();
+        }
 }
