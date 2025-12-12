@@ -1,3 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: horatools123
+    url: "jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC"
+    username: horatools
+
 app:
   security:
     authentication:

@@ -4,9 +4,20 @@ app:
     authentication:
       enabled: false
 
+server:
+  port: 8081
+
 spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3307/horaspheredb?serverTimezone=UTC"
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
+    hibernate:
+      ddl-auto: none
     show-sql: true
     properties:
       hibernate:
         format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
